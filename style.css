@@ -1,12 +1,17 @@
 header {
-    position: fixed;
-    width: 100%;
+    padding 5px;
+    margin-bottom: 5px;
     background: #ebebeb;
     text-align: center;
+
 }
 
 nav {
     background: #ebebeb;
+    display: inline;
+    width: 100%
+    padding: 5px;
+
 }
 
 section {
@@ -22,10 +27,9 @@ aside {
 
 footer {
     background: #ebebeb;
-    position: fixed;
-    width: 100%;
+    padding: 20px;
+    clear: both;
     text-align: center;
-    bottom: 0;
 }
 
 article {
@@ -41,6 +45,8 @@ p {
 
 section {
     width: 495px;
+    float: left;
+    text-align: center;
 }
 
 body {
@@ -49,4 +55,10 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+}
+
+#full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
 }
