@@ -28,3 +28,9 @@ p {
 section {
     width: 495px;
 }
+
+header {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ebebeb;
+}
