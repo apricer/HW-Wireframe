@@ -1,5 +1,8 @@
 header {
+    position: fixed;
+    width: 100%;
     background: #ebebeb;
+    text-align: center;
 }
 
 nav {
@@ -7,13 +10,43 @@ nav {
 }
 
 section {
+    float: left;
     background:  #ebebeb;
 }
 
 aside {
+    float: right;
     background: #ebebeb;
+    text-align: center;
 }
 
 footer {
     background: #ebebeb;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+}
+
+h1,
+p {
+    color: #777;
+    background: #ebebeb;
+}
+
+section {
+    width: 495px;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
 }
