@@ -1,35 +1,17 @@
-header {
-    padding 5px;
-    margin-bottom: 5px;
-    background: #ebebeb;
-    text-align: center;
-
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
 }
 
-nav {
-    background: #ebebeb;
-    display: inline;
-    width: 100%
-    padding: 5px;
-
-}
-
-section {
-    float: left;
-    background:  #ebebeb;
-}
-
-aside {
-    float: right;
-    background: #ebebeb;
-    text-align: center;
-}
-
+header,
+nav,
+section,
+aside,
 footer {
     background: #ebebeb;
-    padding: 20px;
-    clear: both;
-    text-align: center;
 }
 
 article {
@@ -45,20 +27,4 @@ p {
 
 section {
     width: 495px;
-    float: left;
-    text-align: center;
-}
-
-body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777;
-    background: #777;
-    width: 960px;
-    font-size: 18px;
-}
-
-#full {
-    width: 100%;
-    overflow: auto;
-    clear: both;
 }
