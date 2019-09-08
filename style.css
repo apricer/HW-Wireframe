@@ -26,6 +26,10 @@ nav {
     margin-right: 100px;
 }
 
+.full {
+    overflow: auto;
+    clear: both;
+}
 
 section {
     background: #ebebeb;
@@ -36,48 +40,45 @@ section {
     text-align: center;
     }
 
+aside {
+    clear: both;
+    overflow: auto;
+    float: right
+    width: 305px;
+    text-align: center;
+    height: 200px;
+    margin-left: 650px;
+    color: #777;
+    background: #ebebeb
+    }
+
 article {
     clear: both;
     overflow: auto;
-    margin-left: 100px;
+    float; left;
+    width; 400px;
     color: #ebebeb;
     background: #777
-    float: left;
     text-align: center;
-    height: 50px;
-    width: 400px;
-    padding: 20px;
     }
 
 h1 {
     clear: both;
     overflow: auto;
-    float: left;
     text-align: center;
     color: #777;
     background: #ebebeb;
     }
 
 p {
-    clear: both;
-    overflow: auto;
-    float: left;
     text-align: center;
     color: #777;
     background: #ebebeb;
-    }
-
-aside {
-    clear: both;
-    overflow: auto;
-    float: right;
-    text-align: center;
-    background: #ebebeb
     }
 
 footer {
-    float: clear;
-    overflow: auto;
     background: #ebebeb;
     color: #777;
+    text-align: center;
+    height: 50px;
     }
