@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
+}
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
@@ -27,13 +33,13 @@ nav {
 }
 
 .full {
-    overflow: auto;
-    clear: both;
+    margin: 0 auto;
+    width: 800px;
 }
 
 section {
     background: #ebebeb;
-    margin-left: 100px;
+    margin-left: 20px;
     height: 200px;
     width: 495px;
     float: left;
@@ -41,8 +47,8 @@ section {
     }
 
 aside {
-    clear: both;
-    overflow: auto;
+    
+    overflow: hidden;
     float: right
     width: 305px;
     text-align: center;
@@ -53,13 +59,14 @@ aside {
     }
 
 article {
-    clear: both;
-    overflow: auto;
+   
+    overflow: hidden;
     float; left;
     width; 400px;
     color: #ebebeb;
     background: #777
     text-align: center;
+    margin: auto 0;
     }
 
 h1 {
@@ -81,4 +88,7 @@ footer {
     color: #777;
     text-align: center;
     height: 50px;
+    overflow: hidden;
+    width: 850px;
+    margin-left: 100px;
     }
