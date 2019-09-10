@@ -51,7 +51,7 @@ header {
     padding: 20px;
 }
 
-#full {
+#container {
     width: 885px;
     overflow: auto;
     clear: both;
@@ -66,6 +66,7 @@ section {
 }
 
 #article {
+    
 }
 
 #h1 {
