@@ -1,94 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: borderbox;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
-    background: #777;
+    background:#777;
     width: 960px;
     font-size: 18px;
+}
+
+header,
+#nav,
+section,
+#aside,
+footer {
+    background: #ebebeb;
+}
+
+#article {
+    color: #ebebeb;
+    background: #777;
+}
+
+#h1,
+#p {
+    color: #777;
+    background: #ebebeb;
 }
 
 header {
     padding: 20px;
     margin-bottom: 5px;
-    background: #ebebeb;
     text-align: center;
-    width: 800px;
-    margin-left: 100px;
-    margin-right: 20px;
+    margin-left: 75px;
 }
 
-nav {
+#nav {
+    text-align: center;
+    margin-left: 75px;
     padding: 20px;
     margin-bottom: 10px;
-    background: #ebebeb;
-    text-align: center;
-    width: 800px;
-    margin-left: 100px;
-    margin-right: 100px;
+    width: 885px;
 }
 
-.full {
-    margin: 0 auto;
-    width: 800px;
+#aside {
+    float: left;
+    height: 200px;
+    padding: 20px;
+}
+
+#full {
+    width: 885px;
+    overflow: auto;
+    clear: both;
 }
 
 section {
-    background: #ebebeb;
-    margin-left: 20px;
-    height: 200px;
-    width: 495px;
     float: left;
+    margin-left: 75px;
+    width: 495px;
+    padding: 20px;
     text-align: center;
-    }
+}
 
-aside {
-    
-    overflow: hidden;
-    float: right
-    width: 305px;
-    text-align: center;
-    height: 200px;
-    margin-left: 525px;
-    color: #777;
-    background: #ebebeb
-    }
+#article {
+}
 
-article {
-   
-    overflow: hidden;
-    float; left;
-    width; 400px;
-    color: #ebebeb;
-    background: #777
-    text-align: center;
-    margin: auto 0;
-    }
+#h1 {
+    width: 300px;
 
-h1 {
-    clear: both;
-    overflow: auto;
-    text-align: center;
-    color: #777;
-    background: #ebebeb;
-    }
+}
 
-p {
-    text-align: center;
-    color: #777;
-    background: #ebebeb;
-    }
+#p {
+    width; 300px;
+
+}
 
 footer {
-    background: #ebebeb;
-    color: #777;
+    clear: both;
+    margin-left: 75px;
     text-align: center;
-    height: 50px;
-    overflow: hidden;
-    width: 850px;
-    margin-left: 100px;
-    }
+    padding: 20px;
+}
