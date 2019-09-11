@@ -47,17 +47,19 @@ header {
 
 #aside {
     float: left;
-    height: 200px;
+    height: 250px;
     padding: 20px;
-    width: 325px;
+    width: 410px;
     overflow: auto;
     margin-bottom: 12px;
+    display: table;
 }
 
 .container {
     width: 885px;
     overflow: auto;
     clear: both;
+    display: table;
 }
 
 #section {
@@ -66,11 +68,14 @@ header {
     width: 495px;
     padding: 20px;
     text-align: center;
+    height: 250px;
+    display: table;
 }
 
 #article {
     width: 300px;
     margin: 0 auto;
+    display: table;
     
 }
 
