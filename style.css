@@ -34,25 +34,27 @@ header {
     padding: 20px;
     margin-bottom: 5px;
     text-align: center;
-    margin-left: 75px;
+    margin-left: 55px;
 }
 
 #nav {
     text-align: center;
-    margin-left: 75px;
+    margin-left: 55px;
     padding: 20px;
     margin-bottom: 12px;
-    width: 885px;
+    width: 905px;
 }
 
 #aside {
     float: left;
     height: 250px;
     padding: 20px;
-    width: 410px;
+    width: 400px;
     overflow: auto;
     margin-bottom: 12px;
     display: table;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .container {
@@ -66,16 +68,21 @@ header {
     float: left;
     margin-left: 55px;
     width: 495px;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     height: 250px;
     display: table;
+    color: #777;
+    background: #ebebeb
 }
 
 #article {
-    width: 300px;
+    overflow: auto;
+    width: 350px;
     margin: 0 auto;
     display: table;
+    height: 150px;
+    padding: 30px;
     
 }
 
@@ -100,8 +107,8 @@ header {
 footer {
     overflow: auto;
     clear: both;
-    margin-left: 75px;
+    margin-left: 55px;
     text-align: center;
     padding: 20px;
-    width: 885px;
+    width: 905px;
 }
